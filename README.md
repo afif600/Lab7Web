@@ -73,7 +73,7 @@ php spark serve
 
 ### Membuat Routes Baru
 
-- Tambahkan kode berikut ke dalam Routes.php
+- Tambahkan kode berikut ke dalam `Routes.php`
 
 ```php
 $routes->get('/about', 'Page::about');
