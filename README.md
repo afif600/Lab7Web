@@ -42,7 +42,7 @@ simpan kembali filenya dan restart Apache web server.</p>
 <p>Untuk melakukan instalasi Codeigniter 4 dapat dilakukan dengan dua cara, yaitu cara manual dan
 menggunakan composer. Tapi kita akan menggunakan cara manual.</p>
 
-1. Buka situs web resmi CodeIgniter 4 di https://codeigniter.com dan klik tombol "Download" di menu atas. Pilih versi terbaru dari CodeIgniter 4 yang tersedia untuk diunduh.
+1. Buka situs web resmi CodeIgniter 4 di (https://codeigniter.com) dan klik tombol "Download" di menu atas. Pilih versi terbaru dari CodeIgniter 4 yang tersedia untuk diunduh.
 2. Setelah selesai mengunduh, ekstrak file yang diunduh ke dalam direktori project kita (Example: htdocs/lab11_ci).
 3. Ubah nama direktory framework-4.x.xx menjadi ci4.
 4. Di dalam direktori ci4, ubah nama file `env` menjadi `.env` kemudian buka file tersebut dan ubah nilai variable
@@ -50,7 +50,7 @@ menggunakan composer. Tapi kita akan menggunakan cara manual.</p>
 
 ![Konfigurasi CI](img/konfigurasi_ci.PNG)
 
-4. Kemudian, buka browser dengan alamat http://localhost/Lab7Web/lab11_ci/ci4/public/
+4. Kemudian, buka browser dengan alamat (http://localhost/Lab7Web/lab11_ci/ci4/public/)
 
 ![Tampilan Codeigniter 4](img/tampilan_codeigniter.PNG)
 
@@ -62,7 +62,7 @@ php spark serve
 
 ![PHP Spark Serve](img/php_spark_serve.PNG)
 
-6. Buka Web browser dan buka alamat localhost:8080. Jika semuanya berjalan dengan lancar, Maka tampilannya akan sama dengan gambar sebelumnya.
+6. Buka Web browser dan buka alamat (https://localhost:8080) Jika semuanya berjalan dengan lancar, Maka tampilannya akan sama dengan gambar sebelumnya.
 
 # Routing & Controller
 
@@ -81,7 +81,7 @@ $routes->get('/contact', 'Page::contact');
 $routes->get('/faqs', 'Page::faqs');
 ```
 
-![Tambah Routes](img/tambah_routes.PNG)
+![Tambah Routes](img/tambahan_routes.PNG)
 
 - Untuk mengetahui route yang ditambahkan sudah benar, buka CLI dan jalankan perintah berikut.
 
@@ -91,7 +91,7 @@ php spark routes
 
 ![Tampilan CLI](img/tampilan_ci.PNG)
 
-- Selanjutnya coba akses route yang telah dibuat dengan mengakses alamat http://localhost:8080/about
+- Selanjutnya coba akses route yang telah dibuat dengan mengakses alamat (http://localhost:8080/about)
 
 ![Tampilan Error Page](img/tampilan_error_page.PNG)
 
@@ -147,7 +147,7 @@ public function tos()
 }
 ```
 
-- Method ini belum ada pada routing, sehingga cara mengaksesnya dengan menggunakan alamat: http://localhost:8080/page/tos
+- Method ini belum ada pada routing, sehingga cara mengaksesnya dengan menggunakan alamat: (http://localhost:8080/page/tos)
 
 ![Tampilan Autoroute](img/tampilan_autoroute.png)
 
