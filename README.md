@@ -9,7 +9,7 @@
 | **Kelas**       | TI.21.A1          |
 | **Mata Kuliah** | Pemrograman Web 2 |
 
-# Codeigniter 4
+## Codeigniter 4
 
 <p>
 CodeIgniter merupakan aplikasi sumber terbuka yang berupa kerangka kerja PHP dengan model MVC (Model, View, Controller) untuk membangun situs web dinamis dengan menggunakan PHP. CodeIgniter memudahkan pengembang web untuk membuat aplikasi web dengan cepat dan mudah dibandingkan dengan membuatnya dari awal. CodeIgniter dirilis pertama kali pada 28 Februari 2006.</p>
@@ -101,7 +101,7 @@ routing yang dibuat yaitu Contoller Page.</p>
 
 ### Membuat Controller Page
 
-- Selanjutnya adalah membuat Controller Page. Buat file baru dengan nama page.php pada direktori
+- Selanjutnya adalah membuat Controller Page. Buat file baru dengan nama `page.php` pada direktori
   Controller kemudian isi kodenya seperti berikut.
 
 ```php
@@ -154,7 +154,7 @@ public function tos()
 ### Membuat View
 
 - Selanjutnya dalam membuat view untuk tampilan web agar lebih menarik. Buat file baru dengan
-  nama about.php pada direktori view (app/view/about.php) kemudian isi kodenya seperti berikut.
+  nama `about.php` pada direktori view (app/view/about.php) kemudian isi kodenya seperti berikut.
 
 ```php
 <?= $this->include('template/header'); ?>
