@@ -50,11 +50,11 @@ menggunakan composer. Tapi kita akan menggunakan cara manual.</p>
 
 ![Konfigurasi CI](img/konfigurasi_ci.PNG)
 
-4. Kemudian, buka browser dengan alamat (http://localhost/Lab7Web/lab11_ci/ci4/public/)
+5. Kemudian, buka browser dengan alamat (http://localhost/Lab7Web/lab11_ci/ci4/public/)
 
 ![Tampilan Codeigniter 4](img/tampilan_codeigniter.PNG)
 
-5. Setelah itu, masuk ke direktori proyek kita dan jalankan server pengembangan dengan perintah berikut:
+6. Setelah itu, masuk ke direktori proyek kita dan jalankan server pengembangan dengan perintah berikut:
 
 ```php
 php spark serve
@@ -62,7 +62,7 @@ php spark serve
 
 ![PHP Spark Serve](img/php_spark_serve.PNG)
 
-6. Buka Web browser dan buka alamat (https://localhost:8080) Jika semuanya berjalan dengan lancar, Maka tampilannya akan sama dengan gambar sebelumnya.
+7. Buka Web browser dan buka alamat (https://localhost:8080) Jika semuanya berjalan dengan lancar, Maka tampilannya akan sama dengan gambar sebelumnya.
 
 # Routing & Controller
 
